@@ -1,0 +1,63 @@
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 220px;
+    margin-right: auto;
+    margin-top: 23px;
+    display: block;
+    width: 537px;
+    border-radius: 10px;
+}
+
+body {
+	background-color: #363946;
+}
+
+#justDiv {
+	background-color: #2E5077; 
+	border-radius: 10px;
+	width: 200px;
+	height: 250px;
+	position: fixed;
+	bottom: 10px;
+	top: 50px;
+	left: 800px;
+}
+
+label, data-score {
+	color: #FFBF00;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+}
+
+h3 {
+	color: #D8D8D8;
+	text-align: center;
+}
+
+#startGame {
+	margin: 0px auto;
+	display: block;
+	background-color: #FC7753;
+	color: #66D7D1;
+	height: 30px;
+}
+
+#startGame:hover {
+  background-color: #DBF4A7;
+  color: #7D84B2;
+}
+
+#gamePause {
+	margin: 0px auto;
+	display: block;
+	background-color: #C7EFCF;
+	color: #2D93AD;
+	height: 30px;
+}
+
+#gamePause:hover {
+	background-color: #DBF4A7;
+  	color: #7D84B2;
+}
