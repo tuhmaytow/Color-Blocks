@@ -39,7 +39,7 @@ Game.prototype.addNewSquare = function () {
 Game.prototype.addNewVirus = function () {
   if(this.viruses.length < 8) {
     var self = this;
-      for(var i = 0; i < 3; i++){       //produces 3 new virus
+      for(var i = 0; i < 4; i++){       //produces 4 new virus
           var coords = self.virusCoordinates();
           var currentVirus = new Virus(coords[0], coords[1], self.virusColors[Math.floor(Math.random()*4)]);
           self.viruses.push(currentVirus);

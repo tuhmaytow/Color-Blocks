@@ -31,9 +31,9 @@
 		$("#startGame").on("click", function (e){
 			var newGame = new Game("myCanvas");
 		    var newVirus = new Virus("myCanvas");
-		    var bgMusic = new Audio("02-main-menu.mp3");
+		    var newMusic = new Audio("02-main-menu.mp3");
 		    
-		    bgMusic.play();
+		    newMusic.play();
 		   	newGame.addNewSquare();
 		    newGame.addNewVirus();
 			newGame.goingDown();
