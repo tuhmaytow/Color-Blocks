@@ -197,7 +197,7 @@ return filtered.length === 0; //return true if no square overflow otherwise fals
 }
 
 Game.prototype.soundEffect = function () {
-  var sound = new Audio("/Dr. Mario SFX (9).wav"); // buffers automatically when created
+  var sound = new Audio("drm64_mario2.wav"); // buffers automatically when created
   sound.play();
 }
 
