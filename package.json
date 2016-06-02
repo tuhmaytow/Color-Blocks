@@ -2,7 +2,7 @@
   "name": "g_26_week1_project",
   "version": "1.0.0",
   "description": "Q1 project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tuhmaytow/g_26_week1_project/issues"
   },
-  "homepage": "https://github.com/tuhmaytow/g_26_week1_project#readme"
+  "homepage": "https://github.com/tuhmaytow/g_26_week1_project#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }

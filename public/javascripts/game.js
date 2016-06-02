@@ -1,4 +1,5 @@
 "use strict"
+
 var Game = function(myCanvas, context) {
   this.canvas = document.getElementById("myCanvas");
   this.context = this.canvas.getContext("2d");
