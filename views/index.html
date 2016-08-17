@@ -9,43 +9,43 @@
 
 </head>
 <body>
-	
+
 	<canvas id = "myCanvas" width = "325" height = "400" style = "border:6px dotted #90C3D4"></canvas>
-   
+
 	<div id = "justDiv" style = "border:6px dotted #90C3D4">
 		<h3>Score Board:</h3>
 		<label id="ScoreBoard" data-score="0">0</label><br>
 		<input type = "submit" value = "Start Game!" id = "startGame" name = "Start"><br>
 		<input type = "button" value = "Pause" id = "gamePause" name = "Pause">
 	</div>
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
+
 	<link rel="stylesheet" href="/public/stylesheets/project1.css">
     <script src="/public/javascripts/game.js"></script>
     <script src="/public/javascripts/entities.js"></script>
-	
-	
+
+
 	<script>
 		$("#startGame").on("click", function (e){
 			var newGame = new Game("myCanvas");
 		    var newVirus = new Virus("myCanvas");
 		    var newMusic = new Audio("/public/audio/01-title-screen.mp3");
-		    
+
 		    newMusic.play();
 		   	newGame.addNewSquare();
 		    newGame.addNewVirus();
-			newGame.goingDown();
-			
+				newGame.goingDown();
+
 			setInterval(function () {
 				newGame.render()
 			}, 100)
-		    
+
 		    $("body").on("keydown",function(e) {
 		    	if(!newGame.paused && !newGame.over) { 	//if the game is not paused
-		    		
-		    		if(e.keyCode == 37) { 
+
+		    		if(e.keyCode == 37) {
 					newGame.move("left");
 					} else if(e.keyCode == 39) {
 					newGame.move("right");
@@ -55,7 +55,7 @@
 		    	}
 		       	if (e.keyCode == 80) {
 		        	newGame.pauseGame();
-		    	}    
+		    	}
 			});
 			$("#gamePause").on("click", function(e) {
 				newGame.pauseGame();
@@ -64,4 +64,3 @@
 	</script>
 </body>
 </html>
-
