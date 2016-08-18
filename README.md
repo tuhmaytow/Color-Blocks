@@ -1,3 +1,3 @@
-COLOR BLOCKS
+This project focuses on the implementation of OOP(Object-oriented programming).
 
-![alt tag](http://url/to/Screen Shot 2016-08-17 at 10.00.15 AM.png)
+Inspired by the classic game Dr. Mario; Color-Blocks, a game that lets the player match the falling colored blocks to the appropriate matching color of blocks.
