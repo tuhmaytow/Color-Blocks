@@ -1,4 +1,4 @@
-###COLOR-BLOCKS
+#COLOR-BLOCKS
 =================
 
   This project focuses on the implementation of the fundamentals of JavaScript. 
