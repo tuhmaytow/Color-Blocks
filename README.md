@@ -24,7 +24,7 @@
 ###TO-DO
 -----------------
 * Add sprites
-* Score page to keep track of high scores.
+* Score page to keep track and show highest scores.
 
 ###LINK
 -----------------
