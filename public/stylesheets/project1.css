@@ -1,24 +1,27 @@
 canvas {
     padding-left: 0;
     padding-right: 0;
-    margin-left: 220px;
+    margin-left: 350px;
     margin-right: auto;
     margin-top: 23px;
     display: block;
     width: 537px;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 body {
-	background-color: #363946;
+	background-color: #292F36;
+   /*#363946 */
 }
 
 #justDiv {
-	background-color: #2E5077; 
-	border-radius: 10px;
+	background-color: #416788;
+  /*#2E5077*/
+	border-radius: 0px;
 	width: 200px;
 	height: 250px;
 	position: fixed;
+  margin-left: 100px;
 	bottom: 10px;
 	top: 50px;
 	left: 800px;
@@ -29,6 +32,7 @@ label, data-score {
 	font-size: 30px;
 	display: block;
 	text-align: center;
+
 }
 
 h3 {
