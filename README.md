@@ -2,7 +2,7 @@
   
   This project focuses on the implementation of the fundamentals of JavaScript. 
 
-### INSPIRATION
+## INSPIRATION
 -----------------
 
   After learning the basic fundamentals of JavaScript(OOP), I wanted to build something fun and something that reminded me of childhood, and what other application would you build other than a game! I was inspired by the classic game Dr. Mario; Color-Blocks is a game that lets the player match the falling colored blocks to the appropriate matching color of blocks. 
